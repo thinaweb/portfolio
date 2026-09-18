@@ -103,8 +103,13 @@ function App() {
         <h2>My Projects</h2>
 
         <div className="projects">
-          <div className="project-card">
-            <h3>Cinema Booking System</h3>
+          <a href="https://cinema-one-alpha.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          className="project-card"
+          >
+          
+            <h3>Cinema Booking System ↗</h3>
 
             <p>
               A responsive cinema website with movie
@@ -112,8 +117,8 @@ function App() {
               and booking UI.
             </p>
             <span>HTML • JavaScript • CSS • CRUD</span>
-          </div>
-
+            <small>Click to view project →</small>
+          </a>
 
           <a
             href="https://shoe-store-pi-rouge.vercel.app/"
@@ -133,16 +138,6 @@ function App() {
             <small>Click to view project →</small>
           </a>
 
-          <div className="project-card">
-            <h3>Local Job Website</h3>
-
-            <p>
-              A job search website with categories,
-              locations and responsive layouts.
-            </p>
-
-            <span>HTML • CSS • JavaScript</span>
-          </div>
         </div>
       </section>
 
