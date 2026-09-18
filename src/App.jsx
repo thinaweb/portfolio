@@ -47,7 +47,7 @@ function App() {
         </div>
 
         <div className="hero-image">
-          <img src="/public/45.jpg" alt="Makara Thina" />
+          <img src="/45.jpg" alt="Makara Thina" />
         </div>
       </section>
 
